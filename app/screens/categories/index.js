@@ -1,14 +1,14 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+// import RNPgReactNativeSDK from 'react-native-pg-react-native-sdk';
 
 import styles from './styles';
 
 function CategoriesScreen() {
     return (
         <SafeAreaView style={styles.container}>
-            <Text>Categories Screen</Text>
-            <Text>Hey there, How are you?</Text>
+            <Text>Hi there</Text>
         </SafeAreaView>
     );
 }
