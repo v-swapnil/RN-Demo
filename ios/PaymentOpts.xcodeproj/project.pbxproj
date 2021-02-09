@@ -19,6 +19,7 @@
 		7149C2F11697914606C325AC /* libPods-PaymentOpts-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3B43E349514EC3CAED7700 /* libPods-PaymentOpts-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9025AD5A95FE223B279A812A /* libPods-PaymentOpts-PaymentOptsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEF4F95FBD3978F8FED46B0 /* libPods-PaymentOpts-PaymentOptsTests.a */; };
+		F2E6D53825808FA700D1C7AB /* TestFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2E6D53725808FA700D1C7AB /* TestFont.ttf */; };
 		FA1F9CD7FAD00EF0D644D6BF /* libPods-PaymentOpts-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70AD9DFDB4D444A1154D49 /* libPods-PaymentOpts-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF70AD9DFDB4D444A1154D49 /* libPods-PaymentOpts-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaymentOpts-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E6D53725808FA700D1C7AB /* TestFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TestFont.ttf; path = "/Users/webwerks1/Desktop/DemoFiles/React-Native/PaymentOpts/ios/Resources/TestFont.ttf"; sourceTree = "<absolute>"; };
 		FE726BE886F7A797E1A906A4 /* Pods-PaymentOpts-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentOpts-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PaymentOpts-tvOS/Pods-PaymentOpts-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,9 @@
 		13B07FAE1A68108700A75B9A /* PaymentOpts */ = {
 			isa = PBXGroup;
 			children = (
+				F2E6D53A258098D200D1C7AB /* new one */,
+				F2E6D5392580985E00D1C7AB /* some */,
+				F2E6D53625808F7C00D1C7AB /* Resources */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -161,7 +166,6 @@
 				BC8F25FBF64BB20E201E1AF5 /* Pods-PaymentOpts-tvOSTests.debug.xcconfig */,
 				2A57A497E8C8C740CB0773C8 /* Pods-PaymentOpts-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -196,6 +200,28 @@
 				2D02E4901E0B4A5D006451C7 /* PaymentOpts-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E6D53625808F7C00D1C7AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6D53725808FA700D1C7AB /* TestFont.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F2E6D5392580985E00D1C7AB /* some */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = some;
+			sourceTree = "<group>";
+		};
+		F2E6D53A258098D200D1C7AB /* new one */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "new one";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E6D53825808FA700D1C7AB /* TestFont.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
